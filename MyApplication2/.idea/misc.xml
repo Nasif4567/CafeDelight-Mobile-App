@@ -1,0 +1,55 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1485" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/blockdesign1.xml" value="0.235" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/blockdesignwhite.xml" value="0.235" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/button.xml" value="0.1795" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/edittext.xml" value="0.1795" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1525" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1485" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.235" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1485" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/imageviewshape.xml" value="0.1485" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_add_item_page.xml" value="0.176" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_admin_panel.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_customer_login.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_customer_registration_page.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_edit_item_page.xml" value="0.176" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_feedbackpage.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_home_page.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/adminlogin.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/cartpage.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/customeraccount.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/feedbackpage.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_admin_cold_cofee_manage.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_admin_hot_coffee_manage.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_cold_coffee.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_hot_coffee.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_order_manage.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_other_coffee.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_other_coffee_manage.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/homepage.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/loginpage.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/manageorder.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/manageshop.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/registeraddress.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/registerpage.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/reviewcustomerfeedbacks.xml" value="0.291970802919708" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/sendnotification.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/sidenaivation.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1485" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1485" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

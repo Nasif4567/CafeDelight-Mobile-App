@@ -1,0 +1,19 @@
+<!-- side_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigationView"
+    >
+    <item
+        android:id="@+id/navigation_managecoffeemenu"
+        android:title="Manage menu" />
+    <item
+        android:id="@+id/navigation_manageorder"
+        android:title="Manage Order" />
+
+
+    <item
+        android:id="@+id/navigation_rating"
+        android:title="View Rating" />
+
+
+</menu>

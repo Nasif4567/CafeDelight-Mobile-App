@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content">
+
+    <!-- Delete icon in the top right corner -->
+    <ImageView
+        android:id="@+id/imageViewDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp" />
+
+
+    <ImageView
+        android:id="@+id/imageViewRatingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/baseline_comment_24" />
+
+    <TextView
+        android:id="@+id/textViewCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewDelete"
+        android:text="Customer Name: " />
+
+    <TextView
+        android:id="@+id/textViewCustomerEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCustomerName"
+        android:text="Customer Email: " />
+
+    <TextView
+        android:id="@+id/textViewCustomerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCustomerEmail"
+        android:text="Customer ID: " />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCustomerId"
+        android:text="Rating: " />
+
+    <TextView
+        android:id="@+id/textViewFeedbackComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRating"
+        android:text="Feedback Comment: " />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textViewFeedbackComment"
+        android:layout_height="1dp"
+        android:background="#DDDDDD" />
+
+</RelativeLayout>

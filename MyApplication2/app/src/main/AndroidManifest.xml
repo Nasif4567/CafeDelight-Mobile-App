@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_baseline_coffee_maker_24"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_baseline_coffee_maker_24"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="34">
+        <activity
+            android:name="view.AdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name="view.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name="view.SendFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name="view.CustomerLoginn"
+            android:exported="false" />
+        <activity
+            android:name="view.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="view.NotificationView"
+            android:exported="false" />
+        <activity
+            android:name="view.OrderDetailsView"
+            android:exported="false" />
+        <activity
+            android:name="view.ShoppingCart"
+            android:exported="false" />
+        <activity
+            android:name="view.PlaceOrder"
+            android:exported="false" />
+        <activity
+            android:name="view.CustomerRegistrationPage"
+            android:exported="false" />
+        <activity
+            android:name="view.CustomerLogin"
+            android:exported="false" />
+        <activity
+            android:name="view.EditItemPage"
+            android:exported="false" />
+        <activity
+            android:name="view.AddItemPage"
+            android:exported="false" />
+        <activity
+            android:name="view.AdminPanel"
+            android:exported="false" />
+        <activity
+            android:name=".feedbackpage"
+            android:exported="false" />
+        <activity
+            android:name="view.HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

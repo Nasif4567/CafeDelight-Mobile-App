@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:background="@color/teal_200">
+
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_baseline_coffee_maker_24"
+            android:contentDescription="App Logo"/>
+
+    </LinearLayout>
+
+    <!-- Menu Items -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Menu Item: Manage Menu -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manage Menu"
+                android:padding="16dp"
+                android:onClick="onManageMenuClicked"/>
+
+            <!-- Menu Item: Manage Orders -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manage Orders"
+                android:padding="16dp"
+                android:onClick="onManageOrdersClicked"/>
+
+            <!-- Menu Item: Send Notification and Promotion -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Notification and Promotion"
+                android:padding="16dp"
+                android:onClick="onSendNotificationClicked"/>
+
+            <!-- Menu Item: Customer Rating and Feedback -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer Rating and Feedback"
+                android:padding="16dp"
+                android:onClick="onCustomerRatingClicked"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:padding="16dp"
+                android:onClick="onCustomerRatingClicked"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:background="@drawable/ic_wave__1_"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0">
+
+  </ImageView>
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="108dp"
+      android:layout_height="44dp"
+      android:text="Login "
+      android:textSize="30dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.234"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.385" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="343dp"
+      android:layout_height="53dp"
+      android:text="Welcome to CafeDelight"
+      android:textSize="30dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.941"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.312" />
+
+  <EditText
+      android:id="@+id/customerusernameedt"
+      android:layout_width="283dp"
+      android:layout_height="58dp"
+      android:background="@drawable/edittext"
+      android:ems="10"
+      android:hint="Username"
+      android:inputType="textPersonName"
+      android:paddingLeft="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.524" />
+
+  <EditText
+      android:id="@+id/customerpasswordedt"
+      android:layout_width="283dp"
+      android:layout_height="58dp"
+      android:background="@drawable/edittext"
+      android:ems="10"
+      android:hint="Password"
+      android:inputType="textPassword"
+      android:paddingLeft="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.641" />
+
+  <TextView
+      android:id="@+id/directRegi"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Dont have an account ? Sign up here"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.56"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.956" />
+
+  <Button
+      android:id="@+id/cusoginbutton"
+      android:layout_width="283dp"
+      android:layout_height="58dp"
+      android:background="@drawable/button"
+      android:text="Login"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.526"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.754" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
